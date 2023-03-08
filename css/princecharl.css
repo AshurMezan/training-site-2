@@ -115,10 +115,10 @@ width: 740px;
 
 .new {
  width: 760px;
- height: auto;
- margin: 10px 0px 10px 0px;
+ /* height: auto; */
+ /* margin: 10px 0px 10px 0px; */
  /* border: 4px solid red; */
- margin-bottom: 5%;
+ /* margin-bottom: 5%; */
 }
 
 .new p {

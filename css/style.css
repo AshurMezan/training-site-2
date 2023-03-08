@@ -17,6 +17,10 @@ article .prins {
   margin: 10px;
   
 }
+audio {
+  width: 500px;
+  height: 54px;
+}
 
 hr {
   display: block;
@@ -37,7 +41,7 @@ body {
 }
 /* стили для основного контента*/
 main {
-  display: flex;
+  /* display: flex; */
 }
 
 /* стили для ссылок*/
@@ -258,12 +262,12 @@ margin-top: 1%;
 /*Клянусь Всевышним! Потратил 2,5 разбираясь как это сделать. Был же нормальный тег <center>, но вместо него придумали *&%#$*/
 
 .new {
-  width: 40%;
-  height: auto;
+  display: flex;
+  flex-direction: column;
+  width: 720px;
   margin: 10px 0px 10px 0px;
-  display: grid;
-  text-align: center;
-
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -276,11 +280,6 @@ margin-top: 1%;
 }
 
 /* Стили для страницы регистрации */
-
-form {
-  
-
-}
 
 .reg {
   display: inline-block;
@@ -427,4 +426,46 @@ text-align:justify;
 }
 .registerbtn {
   margin-top: 0;
+}
+
+/*Вход на сайт*/
+.container_entrance {
+  border: 2px solid silver;
+  padding: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  width: 310px;
+  height: 300px;
+  border-radius: 5px;
+  box-sizing: content-box;
+}
+.title_entrance {
+  margin-bottom: 10px;
+  font-size: 2em; /* размер шрифта элемента.*/
+  font-family: Comic Sans MS; sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.7em;
+  color: #666;
+  text-align: center;
+}
+.entrance {
+  margin: 2px;
+}
+
+/*Стили для новости про войну*/
+
+
+.video_war {
+  width: 720px;
+  height: 480px;
+}
+
+.new_war {
+  margin: 10px 0px 10px 0px;
+}
+
+.akira {
+  margin: 10px 0px 10px 0px;
 }
