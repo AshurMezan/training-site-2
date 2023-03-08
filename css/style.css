@@ -90,8 +90,7 @@ header {
 /*Указали стиль для  логатипа Financial Times*/
 #logo {
   font-size: 2em; /* размер шрифта элемента.*/
-  font-family: Comic Sans MS; sans-serif; /* стиль шрифта. НЕ РАБОТАЕТ*/
-
+  font-family: Comic Sans MS; sans-serif;
 }
 
 .contact {
@@ -396,3 +395,36 @@ footer {
   padding: 1%;
   margin-top: auto;
 } 
+
+/*Стили к странице регистрация*/
+/*Форма регистрации*/
+.container_reg {
+  border: 2px solid silver;
+  padding: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  width: 310px;
+  height: 420px;
+  border-radius: 5px;
+  box-sizing: content-box;
+}
+ 
+
+.title_reg {
+  margin-bottom: 10px;
+  font-size: 2em; /* размер шрифта элемента.*/
+  font-family: Comic Sans MS; sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.7em;
+  color: #666;
+  text-align: center;
+}
+.word_reg {
+margin: 5px;
+text-align:justify;
+}
+.registerbtn {
+  margin-top: 0;
+}
